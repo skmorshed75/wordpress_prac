@@ -78,3 +78,275 @@
 [17-Oct-2019 15:00:08 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
 [17-Oct-2019 15:00:08 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
 [17-Oct-2019 15:00:08 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[19-Oct-2019 03:40:27 UTC] PHP Parse error:  syntax error, unexpected 'Name' (T_STRING) in /app/public/wp-content/themes/launcher/launcher.php on line 2
+[19-Oct-2019 03:40:59 UTC] PHP Parse error:  syntax error, unexpected 'Name' (T_STRING) in /app/public/wp-content/themes/launcher/launcher.php on line 2
+[19-Oct-2019 03:41:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:44:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:51:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:52:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:52:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:52:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 15
+[19-Oct-2019 03:55:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 310
+[19-Oct-2019 03:55:49 UTC] PHP Stack trace:
+[19-Oct-2019 03:55:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Oct-2019 03:55:49 UTC] PHP   2. require() /app/public/index.php:17
+[19-Oct-2019 03:55:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Oct-2019 03:55:49 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Oct-2019 03:55:49 UTC] PHP   5. the_content() /app/public/wp-content/themes/launcher/launcher.php:29
+[19-Oct-2019 03:55:49 UTC] PHP   6. get_the_content() /app/public/wp-includes/post-template.php:238
+[19-Oct-2019 03:55:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:53
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 53
+[19-Oct-2019 03:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 16
+[19-Oct-2019 03:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 16
+[19-Oct-2019 03:57:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 16
+[19-Oct-2019 03:59:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 18
+[19-Oct-2019 03:59:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 18
+[19-Oct-2019 04:30:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 18
+[19-Oct-2019 04:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_headerx() in /app/public/wp-content/themes/launcher/launcher.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 8
+[19-Oct-2019 04:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_headerx() in /app/public/wp-content/themes/launcher/launcher.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 8
+[19-Oct-2019 04:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 21
+[19-Oct-2019 04:36:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 21
+[19-Oct-2019 04:36:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 21
+[19-Oct-2019 04:38:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:27
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 27
+[19-Oct-2019 04:39:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:27
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 27
+[19-Oct-2019 04:39:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:39:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:39:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:40:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:40:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:41:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:41:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:44:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:44:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 15:26:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 310
+[19-Oct-2019 15:26:16 UTC] PHP Stack trace:
+[19-Oct-2019 15:26:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Oct-2019 15:26:16 UTC] PHP   2. require() /app/public/index.php:17
+[19-Oct-2019 15:26:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Oct-2019 15:26:16 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Oct-2019 15:26:16 UTC] PHP   5. the_content() /app/public/wp-content/themes/launcher/launcher.php:36
+[19-Oct-2019 15:26:16 UTC] PHP   6. get_the_content() /app/public/wp-includes/post-template.php:238
+[20-Oct-2019 15:01:20 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:02:20 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:04:20 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:05:54 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:42:08 UTC] PHP Warning:  Use of undefined constant get_page_template - assumed 'get_page_template' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/launcher/functions.php on line 11
+[20-Oct-2019 15:42:08 UTC] PHP Stack trace:
+[20-Oct-2019 15:42:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[20-Oct-2019 15:42:08 UTC] PHP   2. require() /app/public/index.php:17
+[20-Oct-2019 15:42:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[20-Oct-2019 15:42:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[20-Oct-2019 15:42:08 UTC] PHP   5. get_header() /app/public/wp-content/themes/launcher/launcher.php:8
+[20-Oct-2019 15:42:08 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:41
+[20-Oct-2019 15:42:08 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[20-Oct-2019 15:42:08 UTC] PHP   8. require_once() /app/public/wp-includes/template.php:722
+[20-Oct-2019 15:42:08 UTC] PHP   9. wp_head() /app/public/wp-content/themes/launcher/header.php:6
+[20-Oct-2019 15:42:08 UTC] PHP  10. do_action() /app/public/wp-includes/general-template.php:2745
+[20-Oct-2019 15:42:08 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[20-Oct-2019 15:42:08 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Oct-2019 15:42:08 UTC] PHP  13. wp_enqueue_scripts() /app/public/wp-includes/class-wp-hook.php:286
+[20-Oct-2019 15:42:08 UTC] PHP  14. do_action() /app/public/wp-includes/script-loader.php:2537
+[20-Oct-2019 15:42:08 UTC] PHP  15. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[20-Oct-2019 15:42:08 UTC] PHP  16. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Oct-2019 15:42:08 UTC] PHP  17. launcher_assets() /app/public/wp-includes/class-wp-hook.php:286
