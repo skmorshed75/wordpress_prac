@@ -350,3 +350,114 @@ Stack trace:
 [20-Oct-2019 15:42:08 UTC] PHP  15. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
 [20-Oct-2019 15:42:08 UTC] PHP  16. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
 [20-Oct-2019 15:42:08 UTC] PHP  17. launcher_assets() /app/public/wp-includes/class-wp-hook.php:286
+[22-Oct-2019 17:38:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:11 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:13 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:54 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:58 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:41:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:42:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 95
+[22-Oct-2019 17:59:30 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/themes/alpha/single.php on line 102
+[22-Oct-2019 17:59:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 102
+[23-Oct-2019 15:32:24 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /app/public/wp-content/themes/alpha/single.php on line 121
+[23-Oct-2019 15:32:24 UTC] PHP Stack trace:
+[23-Oct-2019 15:32:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Oct-2019 15:32:24 UTC] PHP   2. require() /app/public/index.php:17
+[23-Oct-2019 15:32:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Oct-2019 15:32:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Oct-2019 15:32:24 UTC] PHP   5. print_r() /app/public/wp-content/themes/alpha/single.php:121
+[23-Oct-2019 15:32:33 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /app/public/wp-content/themes/alpha/single.php on line 121
+[23-Oct-2019 15:32:33 UTC] PHP Stack trace:
+[23-Oct-2019 15:32:33 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Oct-2019 15:32:33 UTC] PHP   2. require() /app/public/index.php:17
+[23-Oct-2019 15:32:33 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Oct-2019 15:32:33 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Oct-2019 15:32:33 UTC] PHP   5. print_r() /app/public/wp-content/themes/alpha/single.php:121
+[23-Oct-2019 15:34:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 121
+[23-Oct-2019 15:34:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 122
+[23-Oct-2019 15:36:00 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 122
+[23-Oct-2019 15:36:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 122
+[23-Oct-2019 15:47:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:03:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:06:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:11:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:12:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:13:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:16:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:17:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
