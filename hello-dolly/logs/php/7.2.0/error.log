@@ -510,3 +510,4 @@ Stack trace:
 [25-Oct-2019 17:29:23 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
 [25-Oct-2019 17:29:23 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
 [25-Oct-2019 17:29:23 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[26-Oct-2019 01:55:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/category-dhaka.php on line 7
