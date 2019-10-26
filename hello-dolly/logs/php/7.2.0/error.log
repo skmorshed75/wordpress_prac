@@ -511,3 +511,18 @@ Stack trace:
 [25-Oct-2019 17:29:23 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
 [25-Oct-2019 17:29:23 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
 [26-Oct-2019 01:55:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/category-dhaka.php on line 7
+[26-Oct-2019 14:30:24 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /app/public/wp-content/themes/alpha/single.php on line 115
+[26-Oct-2019 14:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:111
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 111
+[26-Oct-2019 14:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:111
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 111
