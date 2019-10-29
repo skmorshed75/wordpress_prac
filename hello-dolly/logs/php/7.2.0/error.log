@@ -621,3 +621,7 @@ Stack trace:
 [28-Oct-2019 15:00:38 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
 [28-Oct-2019 16:06:15 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /app/public/wp-content/themes/alpha/functions.php on line 242
 [28-Oct-2019 16:06:51 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /app/public/wp-content/themes/alpha/functions.php on line 242
+[29-Oct-2019 16:02:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 7
+[29-Oct-2019 16:02:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 8
+[29-Oct-2019 16:02:48 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 8
+[29-Oct-2019 16:02:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 8
